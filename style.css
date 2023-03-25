@@ -28,7 +28,7 @@ section{
 }
 
 .head-h5 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 900;
     color: #12265a;
 }
@@ -80,7 +80,7 @@ li {
 .text-subtitle-h3 {
     background-color: #79c8e8;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 8px;
     font-weight: 900;
     border-radius: 5px;
@@ -88,7 +88,7 @@ li {
 }
 
 .text-subtitle-h1 {
-    font-size: 5.37rem;
+    font-size: 5rem;
     color: #12265a;
     font-weight: 900;
     line-height: 1.1;
@@ -98,7 +98,7 @@ li {
 .text-subtitle-p {
     color: #70747f;
     font-family: 'Mulish', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
     margin-bottom:1.3rem;
     line-height: 2.3rem;
@@ -111,8 +111,8 @@ li {
     padding: 10px;
     border-radius: 30px;
     font-weight: 900;
-    font-size: 18px;
-    width: 10.5rem;
+    font-size: 16px;
+    width: 10rem;
     letter-spacing: 0;
 }
 
@@ -135,6 +135,8 @@ li {
 } */
 
 
+/* -----------------------About----------------------- */
+
 .img-children {
     width: 90%;
     height: 90%;
@@ -147,13 +149,9 @@ li {
     border-spacing: 15px 50px;
 }
 
-.li-color {
-    color: #12265a;
-}
-
 .about-h1 {
     margin-top: 30px;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #12265a;
     font-weight: 900;
     line-height: 1.1;
@@ -163,10 +161,21 @@ li {
 
 .about-color {
     background: #fac3d2;
+    padding-left: 8px;
+    padding-right: 8px;
     display: inline-block;
 }
 
 .enter-color {
     background: #fdd990;
     display: inline-block;
+}
+
+.about-p{
+    font-family: 'Mulish', sans-serif;
+    color: #70747f;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 0;
 }
