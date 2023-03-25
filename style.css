@@ -168,7 +168,10 @@ li {
 
 .enter-color {
     background: #fdd990;
+    padding-left: 8px;
+    padding-right: 8px;
     display: inline-block;
+    position: relative;
 }
 
 .about-p{
