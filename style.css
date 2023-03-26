@@ -1,27 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Nunito:wght@600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;800;900&family=Nunito:wght@600;700;900&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100vh;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif !important;
 }
 
-section{
-    /* min-height: 100vh; */
+section {
     margin-left: 7%;
     margin-right: 7%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;  */
 }
 
 /*-------------------Navebar---------------------*/
 
-#navbar{
-    position:sticky;
+#navbar {
+    position: sticky;
     top: 0;
     background: #fff;
     z-index: 1;
@@ -69,8 +66,8 @@ li {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top:180px;
-    padding-bottom:180px;
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
 
 .font-nunito {
@@ -100,7 +97,7 @@ li {
     font-family: 'Mulish', sans-serif;
     font-size: 0.9rem;
     font-weight: 400;
-    margin-bottom:1.3rem;
+    margin-bottom: 1.3rem;
     line-height: 2rem;
 }
 
@@ -153,9 +150,9 @@ li {
     font-weight: 900;
     line-height: 1.1;
     margin-bottom: 0rem;
-    text-align: left;
     position: relative;
 }
+
 /* 
 .about-h1::after{
     content: "";
@@ -182,36 +179,104 @@ li {
 } */
 
 .about-color {
-    background-color: #fac3d2;
+    background-color: #fad1dc;
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 5px;
     display: inline-block;
-} 
+}
 
 .enter-color {
-    background-color: #fdd990;
+    background-color: #fadc9f;
     padding-left: 8px;
     padding-right: 8px;
-    border-radius: 5px; 
+    border-radius: 5px;
     display: inline-block;
 }
 
-.about-p{
+.about-p {
     font-family: 'Mulish', sans-serif;
     color: #70747f;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 2;
     letter-spacing: 0;
 }
 
 @media (max-width: 768px) {
-    .about-text-cen{
-            text-align: center;
-     } 
-  }
+    .about-text-cen {
+        text-align: center;
+    }
+}
 
 
 /*------------------------card---------------------------------------*/
 
+
+.card h4 {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.card p {
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0;
+}
+
+.card h5 {
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.card-1{
+    background-color: #fa9db7 !important;   
+    border-radius: 25px !important;
+
+}
+.card-2{
+    background-color: #45b3df !important;   
+    border-radius: 25px !important;
+}
+
+.card-3{
+    background-color: #ffc85b !important;   
+    border-radius: 25px !important;
+}
+
+
+/*--------------------------------------SCHOOL-------------------------------------*/
+
+.school-card{
+    display: flex;
+    flex-direction: row;
+    height:max-content;
+}
+
+.item-image img{
+    width:60%; 
+    height: max-content;
+}
+
+@media (max-width: 768px) {
+    .school-card{
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        height:max-content;
+    }
+
+    .item-image img{
+        width:15%; 
+        height: max-content;
+    }
+}
