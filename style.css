@@ -238,45 +238,66 @@ li {
     font-weight: 800;
 }
 
-.card-1{
-    background-color: #fa9db7 !important;   
+.card-1 {
+    background-color: #fa9db7 !important;
     border-radius: 25px !important;
 
 }
-.card-2{
-    background-color: #45b3df !important;   
+
+.card-2 {
+    background-color: #45b3df !important;
     border-radius: 25px !important;
 }
 
-.card-3{
-    background-color: #ffc85b !important;   
+.card-3 {
+    background-color: #ffc85b !important;
     border-radius: 25px !important;
 }
 
 
 /*--------------------------------------SCHOOL-------------------------------------*/
 
-.school-card{
+.school-card {
     display: flex;
     flex-direction: row;
-    height:max-content;
+    height: max-content;
 }
 
-.item-image img{
-    width:60%; 
+.item-image img {
+    width: 60%;
     height: max-content;
 }
 
 @media (max-width: 768px) {
-    .school-card{
+    .school-card {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         text-align: center;
-        height:max-content;
-    }
-
-    .item-image img{
-        width:15%; 
         height: max-content;
     }
+
+    .item-image img {
+        width: 15%;
+        height: max-content;
+    }
+}
+
+.card-box h4 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #12265a;
+}
+
+.card-box p {
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+    color: #70747f;
+    line-height: 2;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.card-box h4:hover{
+    color: #fa9db7;
+    transition: 0.4s;
 }
