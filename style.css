@@ -17,7 +17,7 @@ section {
 
 /*-------------------Navebar---------------------*/
 
-#navbar {
+#nav-stick {
     position: sticky !important;
     top: 0;
     background: #fff;
@@ -60,6 +60,10 @@ li {
 
 
 /* -----------------------HOME------------------------- */
+
+.homt-content {
+    margin-left: 7%;
+}
 
 .background-image {
     background-image: url(../Kids-Zone/images/school.jpg);
@@ -105,7 +109,7 @@ li {
     background-color: #ffc85b;
     border: none;
     color: #ffffff;
-    padding: 10px;
+    padding: 13px;
     border-radius: 30px;
     font-weight: 900;
     font-size: 15px;
@@ -322,7 +326,6 @@ li {
     background-color: #88d4f2;
     padding-top: 100px;
     padding-bottom: 100px;
-    border-radius: 30px;
 }
 
 /*----------------------------------GALLERY-----------------------------*/
@@ -365,18 +368,18 @@ li {
 /*---------------------------------Section-Content--------------------------------*/
 
 
-.sc-img{
-    width:50px;
-    height:50px;
+.sc-img {
+    width: 50px;
+    height: 50px;
 }
 
-.section-content h2{
+.section-content h2 {
     font-size: 3rem;
     font-weight: 900;
     color: #12265a;
 }
 
-.section-content p{
+.section-content p {
     font-size: 1.2rem;
     font-weight: 400;
     color: #70747f;
@@ -384,14 +387,96 @@ li {
     letter-spacing: 0;
 }
 
-.section-content h4{
-    font-size:2rem;
+.section-content h4 {
+    font-size: 2rem;
     font-weight: 900;
     color: #12265a;
 }
 
-.section-content-image img{
-    width:95%;
-    height:95%;
+.section-content-image img {
+    width: 95%;
+    height: 95%;
     border-radius: 30px;
+}
+
+@media (max-width: 390px) {
+    .section-content h4 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/*-----------------------------------------TIMELINE---------------------------------------*/
+
+.timeline-h3 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #45b3df;
+}
+
+/* .timeline-image img{
+        width: 42%;
+    } */
+
+
+/*--------------------------------------------- CONTACT----------------------------------------*/
+
+.google-map {
+    width: fit-content;
+    height: 95%;
+    position: relative;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content h3 {
+    color: #12265a;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.contact-color {
+    background-color: #fad1dc;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    display: inline-block !important;
+}
+
+.contact-content p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #70747f;
+}
+
+.contact-content input {
+    height: 50px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.2rem;
+    box-shadow: none;
+    border: 1x solid #fff !important;
+    color: #70747f;
+    border-radius: 26px;
+}
+
+.contact-content textarea {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.2rem;
+    box-shadow: none;
+    outline: none;
+    border: 1x solid #d1d3d8;
+    color: #70747f;
+    border-radius: 26px;
+}
+
+.post-btn {
+    width: 15rem !important;
+    padding: 15px !important;
+    font-size: 1.1rem !important;
 }
