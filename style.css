@@ -18,11 +18,11 @@ section {
 /*-------------------Navebar---------------------*/
 
 .nav-stick {
-    position: fixed;
+    position:sticky;
     top: 0;
     width: 100% !important;
     background: #fff;
-    z-index: 10;
+    z-index:1;
 }
 
 .head-h5 {
