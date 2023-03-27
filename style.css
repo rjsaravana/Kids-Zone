@@ -414,9 +414,10 @@ li {
     color: #45b3df;
 }
 
-/* .timeline-image img{
-        width: 42%;
-    } */
+.timeline-image img{
+        width: 210px;
+        height: 210px;
+    }
 
 
 /*--------------------------------------------- CONTACT----------------------------------------*/
