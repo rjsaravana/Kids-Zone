@@ -11,14 +11,14 @@ body {
 }
 
 section {
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-/*-------------------Navebar---------------------*/
+/*----------------------------------------------Navebar-------------------------------------*/
 
 .nav-stick {
-    /* position: sticky; */
+    /* position: fixed; */
     top: 0;
     width: 100% !important;
     background: #fff;
@@ -64,10 +64,10 @@ li {
 }
 
 
-/* -----------------------HOME------------------------- */
+/* ---------------------------------------HOME---------------------------------------- */
 
 .home-content {
-    margin-left: 7%;
+    margin-left: 5%;
 }
 
 .background-image {
@@ -158,7 +158,7 @@ li {
 } */
 
 
-/* -----------------------About----------------------- */
+/* ---------------------------------------About------------------------------------ */
 
 .img-children {
     width: 95%;
@@ -247,8 +247,15 @@ li {
     letter-spacing: 0;
 }
 
-/*------------------------card---------------------------------------*/
+/*-------------------------------------------card------------------------------------------*/
 
+.star-rotate{
+    transition: transform .3s ease-in-out;
+}
+
+.star-rotate:hover{
+    transform: rotate(180deg);
+}
 
 .card h4 {
     margin-top: 20px;
@@ -292,7 +299,7 @@ li {
 }
 
 
-/*--------------------------------------SCHOOL-------------------------------------*/
+/*-------------------------------------------SCHOOL-------------------------------------*/
 
 .school-card {
     display: flex;
@@ -348,7 +355,7 @@ li {
 }
 
 
-/*---------------------------Number-Part-----------------------------*/
+/*---------------------------------------------Number-Part------------------------------------*/
 
 .svg-2,
 .svg-1 {
@@ -373,7 +380,7 @@ li {
     background-color: #88d4f2;
 }
 
-/*----------------------------------GALLERY-----------------------------*/
+/*------------------------------------------GALLERY---------------------------------------*/
 
 .gal-image img {
     width: 95%;
@@ -388,7 +395,7 @@ li {
     border: 2px solid #fa9db7;
 }
 
-/*---------------------------------Section-Boxes-----------------------------*/
+/*-------------------------------------------Section-Boxes-----------------------------------*/
 
 .text-boxes {
     background-color: #f4f8fa;
@@ -396,6 +403,12 @@ li {
     border-radius: 25px;
     padding: 30px;
 }
+
+.sdc {
+    background-color: #fa9db7;
+    border:none;
+}
+
 
 .text-boxes h2 {
     font-size: 1.75rem;
@@ -421,7 +434,7 @@ li {
     }
 }
 
-/*---------------------------------Section-Content--------------------------------*/
+/*-----------------------------------------------Section-Content-----------------------------------*/
 
 
 .sc-img {
@@ -462,7 +475,7 @@ li {
 }
 
 
-/*-----------------------------------------TIMELINE---------------------------------------*/
+/*---------------------------------------------TIMELINE-----------------------------------------*/
 
 .card-box h5 {
     font-size: 1.75rem;
@@ -490,21 +503,14 @@ li {
     border-radius: 130px;
 }
 
-.timeline-border2{
-    border: 3px solid #fa9db7;
-    width: 210px;
-    height: 214px;
-    border-radius: 130px;
-}
-
-.timeline-border:hover,.timeline-border2:hover{
+.timeline-border:hover {
     border: 3px dashed #fa9db7;
     border-radius: 130px;
 }
 
 .timeline-image img:hover {
     transform: scale(0.9);
-    transition: 1s;
+    transition: 0.5s;
     border-radius: 130px;
     /* border: 3px dashed #fa9db7; */
 }
