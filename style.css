@@ -575,10 +575,15 @@ li {
     justify-content: center;
 }
 
-/* .fa{
-    width: 100%;
-} */
+/* .social-icon{
+    cursor: pointer;
+}
 
+.social-icon:hover{
+    margin-bottom: .9rem;
+    border-radius: 100px;
+    transition:.3s;
+} */
 
 /*----------------------------------------Copyright-Content-------------------------------------*/
 .copyright-content {
