@@ -402,10 +402,12 @@ li {
     border: 3px dashed #fa9db7;
     border-radius: 25px;
     padding: 30px;
+    cursor: pointer;
 }
 
-.sdc {
+.active {
     background-color: #fa9db7;
+    color: #ffffff !important;
     border:none;
 }
 
@@ -419,7 +421,6 @@ li {
 .text-boxes h2:hover {
     color: #fa9db7;
     transition: 0.4s;
-    cursor: pointer;
 }
 
 @media (max-width: 995px){
