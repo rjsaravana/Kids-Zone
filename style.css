@@ -589,30 +589,6 @@ li {
 
 /*------------------------------------------Social-icon--------------------------------------*/
 
-/* .social-media {
-  display: flex;
-  flex-direction: column;
-   justify-content: center; 
-} */
-
-/* .social-icon{
-    cursor: pointer;
-}
-
-.social-icon:hover{
-    margin-bottom: .9rem;
-    border-radius: 100px;
-    transition:.3s;
-} */
-
-.font-icon-twitter {
-  width: 20px;
-  height: 20px;
-  color: #fff;
-  background-color: #45b3df;
-  border-radius: 100%;
-}
-
 .move-upside .twitter-hover {
   position: relative;
   top: 0;
