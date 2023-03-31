@@ -1,150 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;800;900&family=Nunito:wght@600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;800;900&family=Nunito:wght@600;700;900&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-    font-family: 'Nunito', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif !important;
 }
 
 section {
-    margin-left: 5%;
-    margin-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /*----------------------------------------------Navebar-------------------------------------*/
 
 .nav-stick {
-    /* position: fixed; */
-    top: 0;
-    width: 100% !important;
-    background: #fff;
-    z-index: 1;
+  /* position: fixed; */
+  top: 0;
+  width: 100% !important;
+  background: #fff;
+  z-index: 1;
 }
 
 .curve-svg {
-    fill: #fa9db7 !important;
+  fill: #fa9db7 !important;
 }
 
 .head-h5 {
-    font-size: 14px;
-    font-weight: 900;
-    color: #12265a;
+  font-size: 14px;
+  font-weight: 900;
+  color: #12265a;
 }
 
 .nav-header {
-    justify-content: center;
+  justify-content: center;
 }
 
 .kids-text {
-    font-size: 28px;
-    font-weight: 900;
-    color: #fa9db7;
+  font-size: 28px;
+  font-weight: 900;
+  color: #fa9db7;
 }
 
 li {
-    padding: 25px;
+  padding: 25px;
 }
 
 .nav-header-text {
-    color: #12265a;
-    font-weight: 900;
-    font-size: 1.1rem;
-    text-decoration: none;
+  color: #12265a;
+  font-weight: 900;
+  font-size: 1.1rem;
+  text-decoration: none;
 }
 
 .nav-header-text:hover {
-    color: #12265a;
-    background: #ffc85b;
-    padding: 8px;
-    border-radius: 5px;
+  color: #12265a;
+  background: #ffc85b;
+  padding: 8px;
+  border-radius: 5px;
 }
-
 
 /* ---------------------------------------HOME---------------------------------------- */
 
 .home-content {
-    margin-left: 5%;
+  margin-left: 5%;
 }
 
 .background-image {
-    background-image: url(../Kids-Zone/images/school.jpg);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 180px;
-    padding-bottom: 180px;
+  background-image: url(./images/school.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 180px;
 }
 
 .font-nunito {
-    font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .text-subtitle-h3 {
-    background-color: #79c8e8;
-    color: #fff;
-    font-size: 1.1rem;
-    padding: 8px;
-    font-weight: 900;
-    border-radius: 5px;
-    display: inline-block;
+  background-color: #79c8e8;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 8px;
+  font-weight: 900;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .text-subtitle-h1 {
-    font-size: 5.37rem;
-    color: #12265a;
-    font-weight: 900;
-    line-height: 1.1;
-    letter-spacing: -2;
+  font-size: 5.37rem;
+  color: #12265a;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -2;
 }
 
 .text-subtitle-p {
-    color: #70747f;
-    font-family: 'Mulish', sans-serif;
-    font-size: 1.1rem;
-    font-weight: 400;
-    margin-bottom: 1.3rem;
-    line-height: 2rem;
+  color: #70747f;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 1.3rem;
+  line-height: 2rem;
 }
 
 .readmore-btn {
-    background-color: #ffc85b;
-    border: none;
-    color: #ffffff;
-    padding: 15px;
-    border-radius: 30px;
-    font-weight: 900;
-    font-size: 1.1rem;
-    width: 11rem;
-    letter-spacing: 0;
+  background-color: #ffc85b;
+  border: none;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 1.1rem;
+  width: 11rem;
+  letter-spacing: 0;
 }
 
 .readmore-btn:hover {
-    background-color: #79c8e8;
+  background-color: #79c8e8;
 }
 
 @media (max-width: 560px) {
-    .text-subtitle-h3 {
-        font-size: 16px;
-    }
+  .text-subtitle-h3 {
+    font-size: 16px;
+  }
 
-    .text-subtitle-h1 {
-        font-size: 3.60rem;
-    }
+  .text-subtitle-h1 {
+    font-size: 3.6rem;
+  }
 
-    .text-subtitle-p {
-        font-size: 14px;
-    }
+  .text-subtitle-p {
+    font-size: 14px;
+  }
 
-    .readmore-btn {
-        font-size: 14px;
-        width: 9rem;
-    }
+  .readmore-btn {
+    font-size: 14px;
+    width: 9rem;
+  }
 }
-
 
 /* .curve-svg {
     fill: #fff;
@@ -160,15 +158,14 @@ li {
     }
 } */
 
-
 /* ---------------------------------------About------------------------------------ */
 
 .img-children {
-    width: 95%;
-    height: 95%;
-    margin-top: 20px;
-    border-radius: 30px;
-    border: 2px dashed #fa9db7;
+  width: 95%;
+  height: 95%;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: 2px dashed #fa9db7;
 }
 
 /* .img-border{
@@ -189,31 +186,31 @@ li {
 } */
 
 .about-h1 {
-    margin-top: 30px;
-    font-size: 2.8rem;
-    color: #12265a;
-    font-weight: 900;
-    line-height: 1.1;
-    margin-bottom: 0rem;
-    position: relative;
+  margin-top: 30px;
+  font-size: 2.8rem;
+  color: #12265a;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 0rem;
+  position: relative;
 }
 
 @media (max-width: 996px) {
-    .about-h1 {
-        font-size: 2.7rem;
-    }
+  .about-h1 {
+    font-size: 2.7rem;
+  }
 }
 
 @media (max-width: 768px) {
-    .about-text-cen {
-        text-align: center;
-    }
+  .about-text-cen {
+    text-align: center;
+  }
 }
 
 @media (max-width: 485px) {
-    .about-h1 {
-        font-size: 2.1rem;
-    }
+  .about-h1 {
+    font-size: 2.1rem;
+  }
 }
 
 /* 
@@ -242,361 +239,361 @@ li {
 } */
 
 .about-color {
-    background-size: 100% 0.521em;
-    display: inline-block;
-    padding: 0 10px;
-    background-image: linear-gradient(to top, rgba(250, 157, 183, 0.5), rgba(250, 157, 183, 0.5));
-    background-repeat: no-repeat;
-    background-position: 0% 74%;
+  background-size: 100% 0.521em;
+  display: inline-block;
+  padding: 0 10px;
+  background-image: linear-gradient(
+    to top,
+    rgba(250, 157, 183, 0.5),
+    rgba(250, 157, 183, 0.5)
+  );
+  background-repeat: no-repeat;
+  background-position: 0% 74%;
 }
 
 .enter-color {
-    display: inline-block;
-    padding: 0 12px;
-    background-image: linear-gradient(to top, rgba(255, 200, 91, 0.5), rgba(255, 200, 91, 0.5));
-    background-size: 100% 0.521em;
-    background-repeat: no-repeat;
-    background-position: 0% 74%;
+  display: inline-block;
+  padding: 0 12px;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 200, 91, 0.5),
+    rgba(255, 200, 91, 0.5)
+  );
+  background-size: 100% 0.521em;
+  background-repeat: no-repeat;
+  background-position: 0% 74%;
 }
 
 .about-p {
-    font-family: 'Mulish', sans-serif;
-    color: #70747f;
-    font-size: 1rem;
-    line-height: 2;
-    letter-spacing: 0;
+  font-family: "Mulish", sans-serif;
+  color: #70747f;
+  font-size: 1rem;
+  line-height: 2;
+  letter-spacing: 0;
 }
 
 /*-------------------------------------------card------------------------------------------*/
 
 .star-rotate {
-    transition: transform .3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .star-rotate:hover {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .card h4 {
-    margin-top: 20px;
-    color: #fff;
-    font-size: 1.75rem;
-    font-weight: 900;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 900;
 }
 
 .card p {
-    font-family: 'Mulish', sans-serif;
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 1.7;
-    letter-spacing: 0;
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0;
 }
 
 .card h5 {
-    margin-top: 8px;
-    margin-bottom: 30px;
-    font-family: 'Mulish', sans-serif;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 800;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
 }
 
 .card-1 {
-    background-color: #fa9db7 !important;
-    border-radius: 25px !important;
-
+  background-color: #fa9db7 !important;
+  border-radius: 25px !important;
 }
 
 .card-2 {
-    background-color: #45b3df !important;
-    border-radius: 25px !important;
+  background-color: #45b3df !important;
+  border-radius: 25px !important;
 }
 
 .card-3 {
-    background-color: #ffc85b !important;
-    border-radius: 25px !important;
+  background-color: #ffc85b !important;
+  border-radius: 25px !important;
 }
-
 
 /*-------------------------------------------SCHOOL-------------------------------------*/
 
 .school-card {
-    display: flex;
-    flex-direction: row;
-    height: max-content;
+  display: flex;
+  flex-direction: row;
+  height: max-content;
 }
 
 .item-image img {
-    width: 60%;
-    height: max-content;
+  width: 60%;
+  height: max-content;
 }
 
 @media (max-width: 768px) {
-    .school-card {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        height: max-content;
-    }
+  .school-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: max-content;
+  }
 
-    .item-image img {
-        width: 15%;
-        height: max-content;
-    }
+  .item-image img {
+    width: 15%;
+    height: max-content;
+  }
 }
 
 @media (max-width: 375px) {
-    .about-h1 {
-        font-size: 2rem;
-    }
+  .about-h1 {
+    font-size: 2rem;
+  }
 }
 
-
 .card-box h4 {
-    font-size: 1.75rem;
-    font-weight: 900;
-    color: #12265a;
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #12265a;
 }
 
 .card-box p {
-    font-size: 1rem;
-    font-family: 'Mulish', sans-serif;
-    color: #70747f;
-    line-height: 2;
-    letter-spacing: 0;
-    font-weight: 400;
+  font-size: 1rem;
+  font-family: "Mulish", sans-serif;
+  color: #70747f;
+  line-height: 2;
+  letter-spacing: 0;
+  font-weight: 400;
 }
 
 .card-box h4:hover {
-    color: #fa9db7;
-    transition: 0.4s;
-    cursor: pointer;
+  color: #fa9db7;
+  transition: 0.4s;
+  cursor: pointer;
 }
-
 
 /*---------------------------------------------Number-Part------------------------------------*/
 
 .svg-2,
 .svg-1 {
-    fill: #fff;
-    top: 0;
-    bottom: 0;
+  fill: #fff;
+  top: 0;
+  bottom: 0;
 }
 
 .number-text h1 {
-    color: #fff;
-    font-size: 3rem;
-    font-weight: 900;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 .number-text h3 {
-    color: #fff;
-    font-size: 1.75rem;
-    font-weight: 900;
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 900;
 }
 
 .color-row {
-    background-color: #88d4f2;
+  background-color: #88d4f2;
 }
 
 /*------------------------------------------GALLERY---------------------------------------*/
 
 .gal-image img {
-    width: 95%;
-    height: 95%;
-    border-radius: 30px;
-    cursor: pointer;
+  width: 95%;
+  height: 95%;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
 .gal-image img:hover {
-    transform: scale(1.1);
-    transition: 1s;
-    border: 2px solid #fa9db7;
+  transform: scale(1.1);
+  transition: 1s;
+  border: 2px solid #fa9db7;
 }
 
 /*-------------------------------------------Section-Boxes-----------------------------------*/
 
 .text-boxes {
-    background-color: #f4f8fa;
-    border: 3px dashed #fa9db7;
-    border-radius: 25px;
-    padding: 30px;
-    cursor: pointer;
+  background-color: #f4f8fa;
+  border: 3px dashed #fa9db7;
+  border-radius: 25px;
+  padding: 30px;
+  cursor: pointer;
 }
 
 .active {
-    background-color: #fa9db7;
-    color: #ffffff !important;
-    border: none;
+  background-color: #fa9db7;
+  color: #ffffff !important;
+  border: none;
 }
 
-
 .text-boxes h2 {
-    font-size: 1.75rem;
-    font-weight: 900;
-    color: #12265a;
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #12265a;
 }
 
 .text-boxes h2:hover {
-    color: #fa9db7;
-    transition: 0.4s;
+  color: #fa9db7;
+  transition: 0.4s;
 }
 
 @media (max-width: 995px) {
-    .text-boxes h2 {
-        font-size: 1.5rem;
-    }
+  .text-boxes h2 {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 375px) {
-    .text-boxes h2 {
-        font-size: 1rem;
-    }
+  .text-boxes h2 {
+    font-size: 1rem;
+  }
 }
 
 /*-----------------------------------------------Section-Content-----------------------------------*/
 
-
 .sc-img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .section-content h2 {
-    font-size: 3rem;
-    font-weight: 900;
-    color: #12265a;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #12265a;
 }
 
 .section-content p {
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #70747f;
-    line-height: 2;
-    letter-spacing: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #70747f;
+  line-height: 2;
+  letter-spacing: 0;
 }
 
 .section-content h4 {
-    font-size: 2rem;
-    font-weight: 900;
-    color: #12265a;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #12265a;
 }
 
 .section-content-image img {
-    width: 95%;
-    height: 95%;
-    border-radius: 30px;
+  width: 95%;
+  height: 95%;
+  border-radius: 30px;
 }
 
 @media (max-width: 390px) {
-    .section-content h4 {
-        font-size: 1.5rem;
-    }
+  .section-content h4 {
+    font-size: 1.5rem;
+  }
 }
-
 
 /*---------------------------------------------TIMELINE-----------------------------------------*/
 
 .card-box h5 {
-    font-size: 1.75rem;
-    font-weight: 900;
-    color: #12265a;
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #12265a;
 }
 
 .timeline-h3 {
-    font-size: 1.75rem;
-    font-weight: 900;
-    color: #45b3df;
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #45b3df;
 }
 
 .timeline-image img {
-    width: 206px;
-    height: 210px;
-    border-radius: 130px;
-    cursor: pointer;
+  width: 206px;
+  height: 210px;
+  border-radius: 130px;
+  cursor: pointer;
 }
 
 .timeline-border {
-    border: 3px solid #fa9db7;
-    width: 210px;
-    height: 214px;
-    border-radius: 130px;
+  border: 3px solid #fa9db7;
+  width: 210px;
+  height: 214px;
+  border-radius: 130px;
 }
 
 .timeline-border:hover {
-    border: 3px dashed #fa9db7;
-    border-radius: 130px;
+  border: 3px dashed #fa9db7;
+  border-radius: 130px;
 }
 
 .timeline-image img:hover {
-    transform: scale(0.9);
-    transition: 0.5s;
-    border-radius: 130px;
-    /* border: 3px dashed #fa9db7; */
+  transform: scale(0.9);
+  transition: 0.5s;
+  border-radius: 130px;
+  /* border: 3px dashed #fa9db7; */
 }
 
 /*--------------------------------------------- CONTACT----------------------------------------*/
 
 .google-map {
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 .contact-content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-content h3 {
-    color: #12265a;
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1.1;
+  color: #12265a;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1;
 }
 
 .contact-content p {
-    font-size: 1.1rem;
-    font-weight: 300;
-    color: #70747f;
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #70747f;
 }
 
 .contact-content input {
-    height: 50px;
-    font-family: 'Mulish', sans-serif;
-    font-size: 1.1rem;
-    padding: 0.8rem 1.2rem;
-    box-shadow: none;
-    outline: none;
-    border: 1px solid #d4d2d0;
-    color: #70747f;
-    border-radius: 26px;
+  height: 50px;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.1rem;
+  padding: 0.8rem 1.2rem;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #d4d2d0;
+  color: #70747f;
+  border-radius: 26px;
 }
 
 .contact-content textarea {
-    font-family: 'Mulish', sans-serif;
-    font-size: 1.1rem;
-    padding: 0.8rem 1.2rem;
-    box-shadow: none;
-    outline: none;
-    border: 1px solid #d4d2d0;
-    color: #70747f;
-    border-radius: 26px;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.1rem;
+  padding: 0.8rem 1.2rem;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #d4d2d0;
+  color: #70747f;
+  border-radius: 26px;
 }
 
 .post-btn {
-    width: 15rem !important;
-    padding: 15px !important;
-    font-size: 1.1rem !important;
+  width: 15rem !important;
+  padding: 15px !important;
+  font-size: 1.1rem !important;
 }
 
 /*------------------------------------------Social-icon--------------------------------------*/
 
-.social-media {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-}
-
+/* .social-media {
+  display: flex;
+  flex-direction: column;
+   justify-content: center; 
+} */
 
 /* .social-icon{
     cursor: pointer;
@@ -608,25 +605,41 @@ li {
     transition:.3s;
 } */
 
-/*----------------------------------------Copyright-Content-------------------------------------*/
-.copyright-content {
-    background-color: #223668;
+.font-icon-twitter {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  background-color: #45b3df;
+  border-radius: 100%;
+}
+
+.move-upside .twitter-hover {
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+}
+.move-upside:hover .twitter-hover {
+  top: -10px;
+}
+------------------------------Copyright-Content-------------------------------------*/
+  .copyright-content {
+  background-color: #223668;
 }
 
 .svg-4 {
-    fill: #2d4073;
+  fill: #2d4073;
 }
 
 .copyright-text,
 .mobirise-text {
-    font-family: 'Mulish', sans-serif;
-    color: #b1bee0;
-    font-size: 1.1rem;
-    line-height: 2;
-    letter-spacing: 0;
+  font-family: "Mulish", sans-serif;
+  color: #b1bee0;
+  font-size: 1.1rem;
+  line-height: 2;
+  letter-spacing: 0;
 }
 
 .mobirise-text {
-    color: #ffffff;
-    text-decoration: underline;
+  color: #ffffff;
+  text-decoration: underline;
 }
