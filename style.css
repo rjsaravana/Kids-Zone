@@ -597,8 +597,9 @@ li {
 .move-upside:hover .twitter-hover {
   top: -10px;
 }
-------------------------------Copyright-Content-------------------------------------*/
-  .copyright-content {
+/*------------------------------Copyright-Content-------------------------------------*/
+
+.copyright-content {
   background-color: #223668;
 }
 
