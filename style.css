@@ -515,6 +515,14 @@ li {
   cursor: pointer;
 }
 
+
+@media (max-width: 420px) {
+  .timeline-image{
+    display: none;
+  }
+}
+
+
 .timeline-border {
   border: 3px solid #fa9db7;
   width: 210px;
@@ -522,12 +530,12 @@ li {
   border-radius: 130px;
 }
 
-.timeline-border:hover {
+.timeline-border:hover{
   border: 3px dashed #fa9db7;
   border-radius: 130px;
 }
 
-.timeline-image img:hover {
+.timeline-image img:hover{
   transform: scale(0.9);
   transition: 0.5s;
   border-radius: 130px;
